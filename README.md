@@ -16,8 +16,6 @@ We will read all chapters in this book. See schedule below.
 
 # Schedule
 
-*TODO*
-
 *Slides:* https://reykjavik.instructure.com/courses/5340/modules
 
 *Videos:* https://reykjavik.instructure.com/courses/5340/external_tools/670
