@@ -48,7 +48,7 @@ Fyrirlestrar snerta á öllum köflum bókarinnar. Sjá dagskrá að neðan.
 ## Þarf ég að hafa Linux uppsett á vélinni minni?
 
 Byggt að reynslu síðustu ára mælum við með að allir nemendur séu að vinna á
-Linux, og þá helst nýlega útgafú af Ubuntu. Það er hægt að keyra það í sýndarumhverfi
+Linux, og þá helst nýlega útgáfu af Ubuntu. Það er hægt að keyra það í sýndarumhverfi
 eins og t.d. VirtualBox, setja upp dual-boot, eða keyra upp á minnislykli.
 Einnig er mögulegt að vinna verkefnið á Mac OsX, og munu dæmatímakennarar styðja
 við það. Nemendur þurfa ásamt því að vera með góðan editor á vélinni sinni, svo
@@ -62,7 +62,7 @@ leiðbeiningar um uppsetningu síðar.
 Megináherslan í námskeiðinu er á verkefnavinnu. Í lok hverrar viku eru
 verkefnaskil, hvert verkefni um sig gildir 25%. Verkefnin á að vinna í pörum, ef
 tveir vinna saman viljum við sjá jafnt framlag frá báðum aðilum inn á Git
-history, það er því nauðsynlegt að skipta reglulega um Driver.
+history, það er því nauðsynlegt að skipta reglulega um Driver. Ef nemandi hefur ekki möguleika á að vinna í pari er hægt að sækja um undanþágu t.d. ef fjöldi nemanda í áfanga er oddatala. 
 
 Námskeiðið verður í bland í fjarkennslu og staðarkennsla, í staðarkennslunni verður líka alltaf boðið upp á að tengjast með Zoom. Það er mikil áhersla á verklega hlutann í þessu námskeiði og munum við byrja alla daga á kynna verkefni dagsins og bjóðum svo upp á staðarkennslu eftir hádegi. Fyrirlestrarnir verða aðgengilegir inn á Echo360 og getið þið stjórnað því hvenær þið horfið á þá en þurfið að vera búinn að því fyrir fimmtudag þar sem við verðum með vinnustofu þar sem unnið er með efni vikunnar. 
 Svona sjáum við vikuna fyrir okkur, sett fram með fyrirvara um breytingar:
@@ -70,7 +70,7 @@ Svona sjáum við vikuna fyrir okkur, sett fram með fyrirvara um breytingar:
 - Mánudagur: Kynning á verkefni dagsins kl 09:00 (zoom). Dæmatími í kennslustofu kl 14:00.  
 - Þriðjudagur: Kynning á verkefni dagsins kl 09:00 (zoom). Dæmatími í kennslustofu kl 14:00.   
 - Miðvikudagur: Kynning á verkefni dagsins kl 09:00 (zoom). Dæmatími í kennslustofu kl 14:00.   
-- Fimmtudagur: Kynning á verkefni dagsins kl 09:00 (zoom).  Vinnustofa kl 15:00 (skyldumæting).   
+- Fimmtudagur: Kynning á verkefni dagsins kl 09:00 (zoom). Dæmatími í kennslustofu kl 14:00. Vinnustofa (samantekt vikunna) kl 15:00 (skyldumæting).   
 - Föstudagur: Þið hafið þennan dag til að vinna í verkefninu, ekkert verður lagt til nýtt verkefni. Dæmatími kl: 14:00, skil á verkefni vikunnar er kl 23:59.  
 - Laugardagur - sunndags: Helgarfrí, fínt að glugga aðeins í kennslubók námskeiðsins.   
 
