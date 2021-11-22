@@ -93,7 +93,8 @@ Create a [Justfile](https://github.com/casey/just) in the root of the repository
   - [ ] Creates a python virtual environment (if it does not exist)
 
 Example Output:
-![Output](output.png)
+
+<img src="output.png" width="400" />
 
 ## Adding an SSH key to GitHub
 
