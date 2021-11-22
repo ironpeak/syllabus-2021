@@ -78,7 +78,7 @@ Create a bash script `scripts/verify_local_dev_environment.sh` that checks requi
 - [ ] The script should check the version of all tools.
   - [ ] git (2.x.x)
   - [ ] NodeJS (16.x.x)
-  - [ ] npm (8.x.x)
+  - [ ] npm (^6.x.x)
   - [ ] Python (3.8+.x)
   - [ ] Pip (20.x.x)
   - [ ] Just (0.10+)
