@@ -92,6 +92,9 @@ Create a [Justfile](https://github.com/casey/just) in the root of the repository
 - [ ] Create a `venv` recipe:
   - [ ] Creates a python virtual environment (if it does not exist)
 
+Example Output:
+![Output](output.png)
+
 ## Adding an SSH key to GitHub
 
 1. [About SSH](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
