@@ -377,7 +377,7 @@ Docker to run it.
       a browser (curl)
 - [ ] I've stored my docker image on Docker Cloud
 - [ ] A team member has pulled my image and got it running
-- [ ] I've committed all my code to a new GitHub repo
+- [ ] I've committed all my code to my team's GitHub repo
 
 ## Part 4 - Questions
 
