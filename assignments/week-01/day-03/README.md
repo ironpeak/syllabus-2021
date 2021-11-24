@@ -38,7 +38,7 @@ Also remember to add `kubectl` to the setup script you created in day 1.
 
 ## Step 3 - MicroK8s
 
-Now ssh into your instance using the keypair you created in step 2.
+Now ssh into your instance using the keypair you got in Step 1 (We'll send it to as an issue in your repository).
 
 First you might have to change the permissions on your keyfile:
 
