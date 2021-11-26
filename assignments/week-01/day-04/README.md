@@ -18,7 +18,7 @@ Information regarding how to submit issues can be found on Day 1.
 
 ## Objectives
 
-Now that we have a running application and we have a way to deploy it so it's live for the world to see we of course want to automate the process. When automatic the deployment process we also want to make sure we don't deploy anything that is bugged or broken in any way. This is where CI (Continuous Integration) pipelines come in.
+Now that we have a running application and we have a way to deploy it so it's live for the world to see we of course want to automate the process. When automating the deployment process we also want to make sure we don't deploy anything that is bugged or broken in any way. This is where CI (Continuous Integration) pipelines come in.
 Basically, we want to be able to push our code and have a service that fetches our code, makes sure it's up to standards and deploys our application for us.
 We will be starting with deployment and worry about quality insurance later. After this day we should:
 - [ ] Have Circle CI setup for our connect4-client repository
@@ -216,8 +216,8 @@ done
 exit 0
 ~~~
 
-To be able to deploy the docker image you just built we need to make sure we apply the correct image. To target the correct image we use the TAG. We need to replace the TAG part of your docker image name in our `deployment.template.yaml` files with the correct tag. Make sure you update your connect4-client `k8s.template.yaml` to include the `IMAGE_TAG` string so it can be replaced:
-`k8s.template.yaml`
+To be able to deploy the docker image you just built we need to make sure we apply the correct image. To target the correct image we use the TAG. We need to replace the TAG part of your docker image name in our `deployment.template.yaml` files with the correct tag. Make sure you update your connect4-client/k8s/ `*.template.yaml` to include the `IMAGE_TAG` string so it can be replaced:
+`deployment.template.yaml`
 ~~~
 ...
     spec:
@@ -226,7 +226,7 @@ To be able to deploy the docker image you just built we need to make sure we app
 ...
 ~~~
 
-If you push this code the CI would fail. That'a because Circle CI does not have any way of accessing your kubernetes cluster.
+If you push this code the CI would fail. That's because Circle CI does not have any way of accessing your kubernetes cluster.
 
 We need to add our `KUBECONFIG_DATA` to the Circle CI environment variables.
 The Kube config is the file we use locally to access our kubernetes cluster. It should be secret and the way we add it to Circle CI is to base64 encode it and add it to environment variables. You can use this command:
