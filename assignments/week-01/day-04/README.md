@@ -216,8 +216,8 @@ done
 exit 0
 ~~~
 
-To be able to deploy the docker image you just built we need to make sure we apply the correct image. To target the correct image we use the TAG. We need to replace the TAG part of your docker image name in our `deployment.template.yaml` files with the correct tag. Make sure you update your connect4-client `k8s.template.yaml` to include the `IMAGE_TAG` string so it can be replaced:
-`k8s.template.yaml`
+To be able to deploy the docker image you just built we need to make sure we apply the correct image. To target the correct image we use the TAG. We need to replace the TAG part of your docker image name in our `deployment.template.yaml` files with the correct tag. Make sure you update your connect4-client/k8s/ `*.template.yaml` to include the `IMAGE_TAG` string so it can be replaced:
+`deployment.template.yaml`
 ~~~
 ...
     spec:
