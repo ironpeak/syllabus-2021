@@ -106,6 +106,8 @@ Commit the code and push it to make sure your pipeline works.
 7. Next we need to publish the docker image to DockerHub so it can be used by our kubernetes cluster.
 Firstly: In Circle CI each job is independed, i.e. it has it's own build agent that is pulled for each run and it needs to checkout your code. That means that when the 'build' job is finished and the 'publish' job starts the docker image that you built is gone. To be able to use artifacts from previous jobs we need to persist them explicitly. You can do this by adding these steps after you've built your docker image:
 ```
+  build:
+      ...
       - run:
           name: Archive Docker image
           command: docker save -o image.tar $IMAGE_NAME
