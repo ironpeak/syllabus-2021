@@ -93,6 +93,8 @@ These commands will create a Typescript application in the folder `connect4-clie
 To make sure your new application is working as expected you can run it locally on your machine by:
 - Installing the dependencies:\
 `yarn install`
+- Building the app:\
+`yarn build`
 - Starting the application:\
 `yarn start`
 - The application should be running on `http://localhost:3000/`
